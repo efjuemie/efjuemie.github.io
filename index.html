@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>终极报道-反诈题材RPG游戏</title>
+    <meta name="description" content="终极报道官方下载网站">
+    <meta name="keywords" content="反诈 终极报道 游戏">
+    <link rel="icon" href="img/logo.ico">
+</head>
+<body>
+    <style>
+      * { 
+        box-sizing: border-box; 
+      } 
+      body {
+        margin: 0;
+      }
+      *{
+        box-sizing:border-box;
+      }
+      body{
+        margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-family:-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "Microsoft Jhenghei", sans-serif;
+      }
+      .logo path{
+        pointer-events:none;fill:none;stroke-linecap:round;stroke-width:7;stroke:rgb(255, 255, 255);
+      }
+      .welcome-img img{
+        width:100%;
+      }.progress-list .progressbar.line{
+        height:8px;background-color:rgb(244, 244, 244);
+      }
+      .fw-bold.display-2.mb-0{
+        font-size:100px;color:rgb(255, 255, 255);font-weight:900;
+      }
+      .gradient-underline.h4{
+        color:rgb(255, 255, 255);
+      }
+      .text-center{
+        text-align:center;
+      }
+      .fdb-block h1{
+        font-size:1.75rem;margin-bottom:0.5em;margin-top:0.3em;font-weight:400;
+      }
+      .fdb-block .text-h3, .fdb-block h3{
+        font-size:0.875rem;margin-bottom:0.5em;margin-top:0.3em;font-weight:400;
+      }
+      a{
+        color:rgb(0, 123, 255);text-decoration-line:none;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;background-color:transparent;
+      }
+      .row.justify-content-center{
+        padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;position:static;
+      }
+      .text-white-50{
+        color:rgb(255, 255, 255);
+      }
+      .fdb-block .text-h1, .fdb-block h1{
+        font-size:1.75rem;margin-bottom:0.5em;margin-top:0.3em;font-weight:400;
+      }
+      .fdb-block .col-fill-left{
+        width:50%;position:absolute;left:0px;top:0px;bottom:0px;background-size:cover;background-position-x:50%;background-position-y:50%;z-index:1;
+      }
+      a:hover{
+        color:rgb(0, 86, 179);text-decoration-line:underline;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;}.align-items-center{align-items:center;
+      }
+      .fdb-block img{
+        border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;
+      }
+      .fdb-block .text-h2, .fdb-block h2{
+          font-size:1rem;margin-bottom:0.5em;margin-top:0.3em;font-weight:400;
+      }
+      .fdb-block .fdb-touch{
+        border-top-width:5px;border-top-style:solid;border-top-color:rgb(82, 139, 255);
+      }
+      .fdb-block .fdb-box{
+        background-image:initial;background-position-x:initial;background-position-y:initial;background-size:initial;background-repeat:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:rgb(255, 255, 255);color:rgb(68, 68, 68);padding-top:60px;padding-right:40px;padding-bottom:60px;padding-left:40px;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom-right-radius:4px;border-bottom-left-radius:4px;box-shadow:rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;overflow-x:hidden;overflow-y:hidden;
+      }
+      .mt-4{margin-top:1.5rem !important;
+      }
+      .w-100.text-center.text-md-start{
+        color:rgb(255, 255, 255);
+      }
+      .c13541{
+        max-width:1000px;
+      }
+      .c13024{
+        overflow-x:visible;overflow-y:visible;
+      }
+      .c12816{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(img/bg.png);background-color:initial;}
+      .c13016{
+        background-color:rgb(0, 0, 0);
+      }
+      .c14344{
+        max-width:1000px;
+      }
+      .c17071{
+        background-image:url(img/dotted-bg.svg);background-position-x:50%;background-position-y:50%;background-size:contain;background-repeat:no-repeat;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;min-height:75%;
+    }
+      .c17098{
+        max-width:850px;
+      }
+      .c18662{
+        background-color:rgb(251, 101, 103);
+      }
+      .c18745{
+        background-color:rgb(243, 49, 122);
+      }
+      .c18819{
+        background-color:rgb(236, 0, 139);
+      }
+      .c18592{
+        max-width:850px;
+      }
+      .c18937{
+        background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));background-position-x:initial;background-position-y:initial;background-size:initial;background-repeat:initial;background-attachment:initial;background-origin:initial;background-clip:initial;background-color:initial;border-top-color:rgb(34, 34, 34);
+      }
+      .c26175{line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;}
+      .c26234{
+        line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;
+      }
+      .c26292{
+        line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;
+      }
+      .c26350{
+        line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;
+      }
+      .c26408{
+        line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;
+      }
+      .c26466{
+        line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;
+      }
+      .c26524{
+        line-height:var(--cnvs-line-height-base);font-size:var(--cnvs-team-title-font-size);font-family:var(--cnvs-primary-font);background-color:rgb(0, 0, 0);outline-color:initial !important;outline-style:none !important;outline-width:initial !important;
+      }
+      .team_img{color:black;width:99px;height:99px;margin:8px 0px 14px 0px;
+      }
+      </style>
+    <!-- Document Wrapper
+  ============================================= -->
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge"/>
+    <meta name="author" content="htmlpage"/>
+    <link rel="preload" href="css/font-awesome.css" as="style"/>
+    <link rel="preload" href="css/bootstrap-icons.css" as="style"/>
+    <link rel="preload" href="css/unicons.css" as="style"/>
+    <link rel="preload" href="css/font-icons.css" as="style"/>
+    <link rel="preload" href="fonts/unicons-14.woff2" as="font" type="font/woff2" crossorigin=""/>
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin=""/>
+    <link rel="preload" href="fonts/bootstrap-icons.woff2" as="font" type="font/woff2" crossorigin=""/>
+    <meta name="description" content="终极报道官方下载网站。"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/font-icons.css"/>
+    <link rel="stylesheet" href="css/conference.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <div id="wrapper">
+      <!-- Header
+  ============================================= -->
+      <header id="header" data-sticky-shrink="false" class="responsive-sticky-header transparent-header dark header-size-sm">
+        <div id="header-wrap">
+          <div class="container">
+            <div class="header-row justify-content-lg-between">
+              <!-- Logo
+  ============================================= -->
+              <div id="logo" class="me-lg-0">
+                <a href="demo-conference.html" data-scrollto="#slider"><img src="img/logo.jpg" alt="HTMLPAGE Logo" class="logo-default"/><img src="img/logo.jpg" alt="HTMLPAGE Logo" class="logo-dark"/></a>
+              </div>
+              <!-- #logo end -->
+              <div class="primary-menu-trigger">
+                <div type="button" title="Open Mobile Menu" class="cnvs-hamburger">Send
+                </div>
+              </div>
+              <!-- Primary Navigation
+  ============================================= -->
+              <nav class="primary-menu">
+                <ul data-easing="easeInOutExpo" data-speed="1250" data-offset="160" class="menu-container one-page-menu">
+                  <li class="menu-item">
+                    <a href="#" data-href="#section-about" class="menu-link ls-1 text-uppercase"><div>关于游戏</div></a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" data-href="#section-speakers" class="menu-link ls-1 text-uppercase"><div>设定集</div></a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" data-href="#section-schedule" class="menu-link ls-1 text-uppercase"><div>AI助手</div></a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#" data-href="#section-team" class="menu-link ls-1 text-uppercase"><div>制作团队</div></a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+              <!-- Primary Navigation
+  ============================================= -->
+              <nav class="primary-menu">
+                <ul class="menu-container header-button">
+                  <li class="menu-item">
+                    <a href="#section-team" data-class="down-lg:px-1" data-scrollto="#section-team" class="button ls-1 text-uppercase fw-semibold button-effect m-0">下载游戏</a>
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone">
+        </div>
+      </header>
+      <!-- #header end -->
+      <!-- Hero/Slider
+  ============================================= -->
+      <section id="slider" data-bg="img/bg.png" class="slider-element min-vh-60 min-vh-md-100 include-header c12816">
+        <div class="slider-inner">
+          <div class="vertical-middle">
+            <div class="container dark py-5 py-md-0">
+              <div class="row justify-content-between mt-5 col-mb-50">
+                <div data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0" class="col-lg-6 parallax">
+                  <span class="gradient-underline h4">反诈题材RPG游戏</span>
+                  <h2 class="fw-bold display-2 mb-0">终极报道_
+                  </h2>
+                </div>
+                <div data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)" class="col-lg-6 d-flex align-items-lg-end flex-column parallax text-start text-lg-end mb-5 mb-lg-0">
+                  <div class="mt-auto">
+                    <a href="#section-team" data-scrollto="#section-team" class="button ls-1 text-uppercase fw-semibold button-xxlarge button-white button-gradient m-0">立即下载</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- #Slider end -->
+      <!-- Content
+  ============================================= -->
+      <section id="content" class="c13016">
+        <div id="ig1yw" class="content-wrap pt-0 c13024">
+          <!-- Section About
+  ============================================= -->
+          <div id="section-about" class="section page-section bg-transparent pt-0">
+            <div class="container">
+              <div class="mb-5 dark">
+                <span class="display-4 fw-bold gradient-underline font-primary">关于游戏</span>
+              </div>
+              <div class="clear">
+              </div>
+              <div class="row justify-content-around dark">
+                <div class="col-md-6">
+                  <h4 class="font-body ls-1 text-uppercase">这次，真的是“学新闻学的”
+                  </h4>
+                  <p class="text-white-50">《终极报道》是一款反诈题材角色扮演类游戏，玩家将扮演潜入A国某诈骗集团——新晟集团的卧底记者，通过亲自参与并完成一系列“诈骗”任务，获得诈骗集团信任，获取内部消息，接触被害者，完成一篇“终极报道”，揭露诈骗分子的狡诈诡谲，用媒介的力量引起社会关注。
+                  </p>
+                  <p class="text-white-50">在“翻转视角”的体验中，玩家可以对诈骗活动有更情景化的理解，知晓在日常生活中提防可能存在的诈骗隐患，做到“知己知彼”。
+                  </p>
+                  <div class="row mt-5">
+                    <div class="col-6 col-sm-3">
+                      <h5 class="font-body">我们的理念</h5>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <div class="counter gradient-text">
+                        +
+                      </div>
+                      <h5 class="font-body">翻转视角
+                      </h5>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <div class="counter gradient-text">
+                        +
+                      </div>
+                      <h5 class="font-body">新闻价值
+                      </h5>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                      <div class="counter gradient-text">
+                        +
+                      </div>
+                      <h5 class="font-body">社会意义
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="about-img position-relative">
+                    <div class="my-3 my-lg-0">
+                      <div class="gradient-bg">
+                        <img src="img/bg4.jpg" alt="关于图片"/>
+                      </div>
+                    </div>
+                    <div data-0="top: 160px" data-end="top: 120px">
+                      <div class="gradient-bg">
+                        <img src="img/bg5.jpg" alt="关于图片"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear">
+          </div>
+          <!-- #section-about end -->
+          <div class="section bg-transparent m-0">
+            <div class="container">
+              <div id="i3lpdb" class="mx-auto dark text-center c18592">
+                <span class="display-4 fw-bold gradient-underline">反诈游戏，只能“被骗”？<br/>不！<br/></span>
+                <p class="lead text-white-50">“我明明看得出来对面在骗我，却为了推进游戏进度，不得不选择‘被骗’的选项”
+                  <br/>“说是RPG，玩家扮演的原来是‘给骗子赶着送钱的傻子’”
+                  <br/>······
+                  <br/>在《终极报道》，这些“拧巴”的体验都将不复存在！
+                </p>
+              </div>
+              <div class="clear">
+              </div>
+              <div class="row align-items-stretch mt-3">
+                <div class="col-md-4 mb-3">
+                  <a class="card dark c18662"><div class="card-body">
+                    <h4 class="mb-4 font-body fw-normal h5">箱庭式关卡设计
+                    </h4>
+                    <div class="d-flex flex-wrap justify-content-between">
+                      <h5 class="font-body mb-0 text-uppercase ls-1">- “1+8”箱庭式设计，自由探索地图，收集线索，达成通关条件，完成“最终的报道”。
+                      </h5>
+                    </div>
+                    </div></a>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <a class="card dark c18745" ><div class="card-body" >
+                    <h4 class="mb-4 font-body fw-normal h5">真实的案例背景
+                    </h4>
+                    <h5 class="font-body mb-0 text-uppercase ls-1">- 基于真实案例，我们为每一位NPC撰写了千余字的人物小传。
+                    </h5>
+                    </div></a>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <a class="card dark c18819"><div class="card-body">
+                    <h4 class="mb-4 font-body fw-normal h5">视觉小说式体验
+                    </h4>
+                    <h5 class="font-body mb-0 text-uppercase ls-1">-简单易上手，更有丰富的对话，有趣的彩蛋，和引人深省的剧情故事。
+                    </h5>
+                    </div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clear">
+          </div>
+          <!-- Section Speakers
+  ============================================= -->
+          <div id="section-speakers" class="section page-section bg-transparent pt-0 mt-6">
+            <div class="container">
+              <div class="mb-5 dark d-flex flex-wrap justify-content-between align-items-center">
+                <span class="display-4 fw-bold gradient-underline mb-0">设定集</span>
+              </div>
+              <div id="iwx6u6" class="row mx-auto dark c13541">
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/1.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">报道对象-1
+                    </h4>
+                    <span>林悦悦</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/2.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-2" draggable="false" class="gradient-text gjs-selected c26175">报道对象-2
+                    </h4>
+                    <span>HTMLPAGE 业务</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/3.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-3" draggable="false" class="gradient-text gjs-selected c26234">报道对象-3
+                    </h4>
+                    <span>云管理</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/4.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-4" draggable="false" class="gradient-text gjs-selected c26292">报道对象-4
+                    </h4>
+                    <span>社群</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/5.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-5" draggable="false" class="gradient-text gjs-selected c26350">报道对象-5
+                    </h4>
+                    <span>软件设计师</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/6.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-6" draggable="false" class="gradient-text gjs-selected c26408">报道对象-6
+                    </h4>
+                    <span>HTMLPAGE 业务</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/7.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-7" draggable="false" class="gradient-text gjs-selected c26466">报道对象-7
+                    </h4>
+                    <span>云管理</span>
+                  </div>
+                  </div></a>
+                <a href="#" class="team col-lg-4 col-sm-6 mb-5"><div class="team-image">
+                  <img src="img/8.jpg" alt="John Doe"/>
+                  </div><div class="team-desc">
+                  <div class="team-title">
+                    <h4 class="gradient-text">
+                    </h4>
+                    <h4 id="ikfzsl-8" draggable="false" class="gradient-text gjs-selected c26524">报道对象-8
+                    </h4>
+                    <span>社群</span>
+                  </div>
+                  </div></a>
+              </div>
+            </div>
+          </div>
+          <!-- #section-speaker end -->
+          <div class="clear">
+          </div>
+          <!-- Section Schedule
+  ============================================= -->
+          <div id="section-schedule" class="section page-section bg-transparent pt-0 mt-5 clearix">
+            <div class="container">
+              <div class="mb-5 dark d-flex justify-content-between align-items-center">
+                <span class="display-4 fw-bold gradient-underline mb-0">是的，我们有一个智能体助手</span>
+              </div>
+              <div id="iguhir" class="schedule-wrap mx-auto rounded c14344">
+                <ul id="tab-9" role="tablist" class="nav canvas-alt-tabs tabs-alt tabs-bb tabs nav-tabs nav-fill mb-5">
+                  <li role="presentation" class="nav-item">
+                    <div type="button" id="canvas-tab-1" data-bs-toggle="pill" data-bs-target="#tabs-1" role="tab" aria-controls="canvas-tab-1" aria-selected="true" class="nav-link active">游戏问题
+                    </div>
+                  </li>
+                  <li role="presentation" class="nav-item">
+                    <div type="button" id="canvas-tab-2" data-bs-toggle="pill" data-bs-target="#tabs-2" role="tab" aria-controls="canvas-tab-2" aria-selected="false" class="nav-link">反诈案例
+                    </div>
+                  </li>
+                  <li role="presentation" class="nav-item">
+                    <div type="button" id="canvas-tab-3" data-bs-toggle="pill" data-bs-target="#tabs-3" role="tab" aria-controls="canvas-tab-3" aria-selected="false" class="nav-link">答题小游戏
+                    </div>
+                  </li>
+                </ul>
+                <div id="canvas-tab-alt-content" class="tab-content">
+                  <div id="tabs-1" role="tabpanel" aria-labelledby="canvas-tabs-1-tab" tabindex="0" class="tab-pane fade show active">
+                    <dl class="row dark mb-0">
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">玩法问题
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">Eg.你们的游戏怎么玩？
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">玩法问题
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">Eg.我的身份和任务是什么？
+                        <small>- 宁静</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">关于创作
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">Eg.我为何是一位记者？
+                        <small>- 陈紫云</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">关于创作
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">Eg.游戏内的每一个案例都有真实背景吗？
+                        <small>- 刘诗婷</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">游戏延伸
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">Eg.
+                        <small>- 张素雅</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">游戏延伸
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">Eg.游戏内的NPC林悦悦被骗后，发生了什么？
+                        <small>- 谢翔宇</small>
+                        </div></dd>
+                    </dl>
+                  </div>
+                  <div id="tabs-2" role="tabpanel" aria-labelledby="canvas-tabs-2-tab" tabindex="0" class="tab-pane fade">
+                    <dl class="row dark mb-0">
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午9:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">为什么参加活动
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午10:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">惊喜活动
+                        <small>- Gunther Beard</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午10:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">生态系统中的正确招聘方式
+                        <small>- Will Barrow</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午11:30
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">美味的午餐
+                        <small>- 自助餐厅</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">下午12:45
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">小组讨论：HTMLPAGE的未来
+                        <small>- Will Barrow</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">下午2:30
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">为什么我应该选择客户支持
+                        <small>- Indigo Violet</small>
+                        </div></dd>
+                    </dl>
+                  </div>
+                  <div id="tabs-3" role="tabpanel" aria-labelledby="canvas-tabs-3-tab" tabindex="0" class="tab-pane fade">
+                    <dl class="row dark mb-0">
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午9:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">建立更好的客户体验的20个有效方法
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午10:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">如何为被黑客攻击的网站做准备？
+                        <small>- 张嘉怡</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午10:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">创业者的入站营销策略
+                        <small>- 杨子轩</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">上午11:30
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">美味的午餐
+                        <small>- 陈思宇</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">下午2:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="schedule-desc">反馈、测验、互动和礼品
+                        <small>- 赵雨欣</small>
+                        </div></dd>
+                      <dt class="col-sm-3">
+                        <div class="schedule-time font-primary">晚上7:00
+                        </div>
+                      </dt>
+                      <dd class="col-sm-9"><div class="row justify-content-between align-items-center">
+                        <div class="col-sm-9">
+                          <div class="schedule-desc">派对后活动
+                            <small>- 刘宇轩</small>
+                        </div></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- #section-scedule end -->
+          <!-- Section Team
+  ============================================= -->
+          <div id="section-team" class="section page-section bg-transparent pt-0">
+            <div class="container">
+              <div class="mb-5 dark d-flex justify-content-between align-items-center">
+                <span class="display-4 fw-bold gradient-underline mb-0">制作团队</span>
+              </div>
+            </div>
+            <div class="position-relative">
+              <div class="container">
+                <div class="row pricing align-items-center">
+                  <div class="col-lg-3 col-sm-6 mt-4 mt-sm-0">
+                    <div class="pricing-box text-center">
+                      <div class="pricing-title title-sm">
+                        <h3 class="text-transform-none ls-0">孙宇昂</h3>
+                        <span class="text-transform-none">简介</span>
+                      </div>
+                      <img src="img/sya.jpg" class="team_img"/>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="pricing-box text-center">
+                      <div class="pricing-title title-sm">
+                        <h3 class="text-transform-none ls-0">胡鹏飞</h3>
+                        <span class="text-transform-none">简介</span>
+                      </div>
+                      <img src="img/hpf.jpg" class="team_img"/>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="pricing-box text-center">
+                      <div class="pricing-title title-sm">
+                        <h3 class="text-transform-none ls-0">张轩赫</h3>
+                        <span class="text-transform-none">简介</span>
+                      </div>
+                      <img src="img/zxh.jpg" class="team_img"/>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-sm-6 mt-4 mt-lg-0">
+                    <div class="pricing-box text-center">
+                      <div class="pricing-title title-sm">
+                        <h3 class="text-transform-none ls-0">周俊西</h3>
+                        <span class="text-transform-none">简介</span>
+                      </div>
+                      <img src="img/zjx.jpg" class="team_img"/>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-bg="img/dotted-bg.svg" id="ir879b" class="dotted-bg c17071">
+              </div>
+            </div>
+            <div class="container mt-6">
+              <div id="ioxu6t" class="mx-auto dark text-center c17098">
+                <h3 class="display-4 gradient-text">即刻体验
+                </h3>
+                <p class="lead">我们的
+                  <b>特约记者
+                  </b>，请不要犹豫！即刻加入我们，开始光荣的<strike>进化</strike>新闻报道！
+                  <br/>谁说这反诈游戏不好玩的，这反诈游戏也太好玩了！
+                </p>
+                <a href="#" class="button ls-1 text-uppercase fw-semibold button-xxlarge button-white button-light button-gradient-hover mt-4">立即下载</a>
+              </div>
+            </div>
+          </div>
+          <!-- #section-team end -->
+      </section>
+      <!-- #content end -->
+      <!-- Footer
+  ============================================= -->
+      <footer id="footer" class="dark c18937">
+        <!-- Copyrights
+  ============================================= -->
+        <div id="copyrights" class="bg-transparent pt-0">
+          <div class="container">
+            <div class="w-100 text-center text-md-start">版权所有 2024 © 字节蹦迪制作小组
+              <br/>联系我们： 2367102610@qq.com
+              <br/>
+            </div>
+          </div>
+        </div>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+    <!-- Go To Top
+  ============================================= -->
+    <div id="gotoTop" class="uil uil-angle-up">
+    </div>
+    <!-- JavaScripts
+  ============================================= -->
+    <script src="js/plugins.min.js"></script>
+    <script src="js/functions.bundle.js"></script>
+    <!-- Parallax Script
+  ============================================= -->
+    <script src="js/skrollr.min.js"></script>
+    <script>!SEMICOLON.Mobile.any() && skrollr.init({
+        forceHeight: false}
+                                                   );
+    </script>
+    <script>
+      jQuery(document).ready( function(){
+        // Ticket Price Changed Script
+        var elementEarlyBird = jQuery("#early-bird-person"),
+            element1Day = jQuery("#1-day-pricing-person"),
+            element2Day = jQuery("#2-day-pricing-person"),
+            elementFull = jQuery("#full-pricing-person");
+        elementEarlyBird.on( 'change', function(){
+          pricingEarlyBird = jQuery(this).prop('value');
+          jQuery('.early-bird-pricing').html( '$'+ (pricingEarlyBird * 39) );
+        }
+                           );
+        element1Day.on( 'change', function(){
+          pricing1day = jQuery(this).prop('value');
+          jQuery('.1-day-pricing').html( '$'+ (pricing1day * 29) );
+        }
+                      );
+        element2Day.on( 'change', function(){
+          pricing2Day = jQuery(this).prop('value');
+          jQuery('.2-day-pricing').html( '$'+ (pricing2Day * 49) );
+        }
+                      );
+        elementFull.on( 'change', function(){
+          pricingFull = jQuery(this).prop('value');
+          jQuery('.full-pricing').html( '$'+ (pricingFull * 69) );
+        }
+                      );
+      }
+                            );
+    </script>
+    <script>
+      jQuery(document).ready(function() {
+        SEMICOLON.Core.viewport();
+        SEMICOLON.Core.breakpoints();
+        SEMICOLON.Base.menuBreakpoint();
+      }
+                            )
+    </script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3046fd20f813bbef24f4467855163c94";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      }
+      )();
+    </script>
+    
+    <script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.0.0-beta.4/libs/cn/index.js"></script>
+    <script>
+        new CozeWebSDK.WebChatClient({
+          config: {
+            bot_id: '7445963294668177445',
+          },
+          componentProps: {
+            title: 'Coze',
+          },
+        });
+    </script>
+  
+  </body>
+  </html>
